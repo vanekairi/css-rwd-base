@@ -1,3 +1,5 @@
+
+}
 header {
   width: 100%;
   background-color: pink;
@@ -46,9 +48,10 @@ main p {
   display: inline-block;
   width: 20%;
   height: 500px;
-  float: right;
+
   margin-bottom: 10px;
 }
+
 
 footer {
   clear: both;
@@ -58,4 +61,38 @@ footer {
   font-size: 1.5rem;
   text-align: center;
   padding: 1em;
+}
+@media (max-width: 900px) {
+  .menu-lateral li {
+    width: 200px;
+    }
+div.direita.bg-principal {
+    width:100%;
+    display: block;
+    height: 40px;
+    text-align: center;
+    clear:both;
+    }
+}
+
+@media (max-width: 700px) {
+  ul.menu-lateral {
+    width: 100%;
+    }
+  li.bg-principal {
+    width: 100%;
+    height:;
+    }
+  main {
+    width: 100%;
+    text-align: center;
+    margin: 50px;
+    }
+  div.direita.bg-principal {
+    width:100%;
+    display: block;
+    height: 40px;
+    text-align: center;
+    clear:both;
+    }
 }
